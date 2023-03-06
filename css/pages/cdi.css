@@ -1,0 +1,22 @@
+.production-semaine a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.fonce .production-semaine a{
+    color: #efefef;
+    transition: 0.3s;
+}
+
+.clair .production-semaine a{
+    color: hsl(220, 80%, 48%);
+    transition: 0.3s;
+}
+
+.fonce .production-semaine a :hover{
+    color: #FFC947;
+}
+
+.clair .production-semaine a :hover{
+    color: hsl(220, 80%, 38%);
+}

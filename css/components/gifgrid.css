@@ -1,0 +1,26 @@
+.gifgrid{
+    display: grid;
+    grid-template-columns: 192px 192px 192px;
+    grid-template-rows: 128px 128px 128px 128px;
+    gap: 5px 5px;
+}
+
+
+.gifcell{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .gifgrid{
+        grid-template-columns: 192px 192px;
+        grid-template-rows: 128px 128px 128px 128px 128px 128px ;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .gifgrid{
+        grid-template-columns: 192px;
+        grid-template-rows: 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px;
+    }
+}

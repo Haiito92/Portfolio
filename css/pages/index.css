@@ -1,0 +1,268 @@
+.bloc-axes{
+    position: relative;
+}
+.texte-axes {
+    font-size: 21.3333px;
+    padding: 0px 40px 40px;
+    text-align: center;
+}
+.texte-axes b{
+    color: hsl(220, 80%, 48%);
+}
+
+.boutons-axes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.bloc-phare{
+    background-color: #0A1931;
+    position: relative;
+}
+.banniere-phare{
+    height: 400px;
+    background-image: radial-gradient(rgba(29, 28, 28, 0.6),rgba(0, 0, 0, 0.6)), url(../../images/Photo\ Magicook.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banniere-phare h2{
+    color: #efefef;
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.banniere-phare .bouton-normal{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 21.3333px;
+}
+
+
+.description-phare{
+    height: 400px;
+    color: #efefef;
+    text-align: center;
+    font-size: 21.3333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.toque{
+    height: 11vw;
+    width: 11vw;
+    position: absolute;
+    left: 6.4%;
+    top: 20%;
+    transform: rotate(-20deg);
+}
+.spatule{
+    height: 11vw;
+    width: 11vw;
+    position: absolute;
+    left: 83%;
+    top: 50%;
+}
+
+
+.bloc-apropos{
+    height: 500px;
+    background-color: #0A1931;
+    color: #efefef;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bloc-apropos p {
+    padding-bottom: 50px;
+    font-size: 21.3333px; 
+}
+
+.bloc-apropos .bouton-normal{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 21.3333px;
+    font-weight: 500;
+}
+
+.c-sharp{
+    height: 11vw;
+    width: 11vw;
+    position: absolute;
+    left: 6.9%;
+    top: 18%;
+    transform: rotate(-20deg);
+}
+.escalade{
+    height: 11vw;
+    width: 11vw;
+    position: absolute;
+    left: 18%;
+    top: 60%;
+    transform: rotate(20deg);
+}
+.manette{
+    height: 11vw;
+    width: 11vw;
+    position: absolute;
+    left: 84.8%;
+    top: 34%;
+    transform: rotate(20deg);
+}
+
+
+.transition-axes{
+    position: absolute;
+    left: 0px;
+    top: 90%;
+}
+
+.vector-one-axes{
+    width: 400px;
+}
+.vector-one-axes h2{
+    padding-right: 50px;
+}
+
+
+.transition-phare{
+    position: absolute;
+    right: 0px;
+    bottom: -8%;
+}
+.vector-one-phare{
+    width: 550px;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.vector-one-phare h2{
+    padding-left: 20px;
+}
+
+
+
+.transition-dernier{
+    position: absolute;
+    left: 0px;
+    top: 95%;
+}
+
+.vector-one-dernier{
+    width: 600px;
+    clip-path: polygon(0% 0%, 89.4% 0%, 100% 100%, 0% 100%);
+}
+.vector-one-dernier h2{
+    padding-right: 40px;
+}
+.vector-two-dernier{
+    width: 600px;
+    clip-path: polygon(0% 0%, 89.4% 0%, 100% 100%, 0% 100%);
+}
+.vector-three-dernier{
+    width: 600px;
+    clip-path: polygon(0% 0%, 89.4% 0%, 100% 100%, 0% 100%);
+}
+
+
+
+
+
+.transition-bio{
+    position: absolute;
+    right: 0px;
+    bottom: -13%;
+}
+.vector-one-bio{
+    width: 450px;
+    clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.vector-one-bio h2{
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 700px){
+    /* .bloc-axes p {
+        font-size: 100%;
+    } */
+    
+    .transition-axes{
+        position: absolute;
+        left: 0px;
+        top: 90%;
+    }
+    
+    .vector-one-axes{
+        width: 100vw;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .vector-one-axes h2{
+        padding-right: 0px;
+    }
+    
+    
+    .transition-phare{
+        position: absolute;
+        right: 0px;
+        bottom: -8%;
+    }
+    .vector-one-phare{
+        width: 100vw;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .vector-one-phare h2{
+        padding-left: 0px;
+    }
+    
+    
+    
+    .transition-dernier{
+        position: absolute;
+        left: 0px;
+        top: 95%;
+    }
+    
+    .vector-one-dernier{
+        width: 100vw;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .vector-one-dernier h2{
+        padding-right: 0px;
+    }
+    .vector-two-dernier{
+        display: none;
+    }
+    .vector-three-dernier{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    .transition-bio{
+        position: absolute;
+        right: 0px;
+        bottom: -13%;
+    }
+    .vector-one-bio{
+        width: 100vw;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .vector-one-bio h2{
+        padding-left: 0px;
+    }
+}
