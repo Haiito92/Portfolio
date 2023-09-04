@@ -1,0 +1,86 @@
+header {
+    background-color: #EFEFEF;
+    font-weight: 600;
+    position: sticky;
+    top: 0px;
+    z-index: 950;
+}
+
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.menu-item{
+    background-color: hsl(0, 0%, 94%);
+    box-shadow: inset 0px 0px 0px 0px hsl(220, 80%, 48%);
+    width: 15%;
+    text-align: center;
+    position: relative;
+    transition: all;
+    transition: 0.3s;
+}
+header nav a {
+    display: block;
+    text-decoration: none;
+    color: hsl(220, 80%, 48%);
+    padding: 25px 0px;
+}
+
+
+.sous-menu{
+    display: none;
+    list-style-type: none;
+    background-color: hsl(0, 0%, 94%);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.sous-menu li {
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.sous-menu a{
+    padding: 15px 0px;
+}
+
+
+.menu-item:hover{
+    background-color: hsl(0, 0%, 84%);
+    box-shadow: inset 0px 0px 0px 5px hsl(220, 80%, 38%);
+    
+}
+.menu-item:hover .sous-menu{
+    display: block;
+}
+.menu-item:active{
+    background-color: hsl(0, 0%, 74%);
+}
+
+.sous-menu li :hover{
+    background-color: hsl(0, 0%, 84%);
+}
+.sous-menu li:active{
+    background-color: hsl(0, 0%, 74%);
+}
+
+
+@media screen and (max-width:700px){
+    .menu-item{
+        width: 20%;
+        font-size: 70%;
+        justify-content: space-around;
+    }
+}

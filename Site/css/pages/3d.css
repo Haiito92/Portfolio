@@ -1,0 +1,15 @@
+.prod-semaine33d{
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+}
+
+.image-semaine33d{
+    background-color: black;
+    width: 100%;
+}
+
+.imgsemaine23d{
+    height: 100%;
+    width: 100%;
+}
